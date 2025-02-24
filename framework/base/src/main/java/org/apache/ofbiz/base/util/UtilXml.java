@@ -397,7 +397,8 @@ public final class UtilXml {
     public static Document readXmlDocument(URL url, boolean validate, boolean withPosition)
             throws SAXException, ParserConfigurationException, java.io.IOException {
 
-        if (!HOSTHEADERSALLOWED.contains(url.getHost())) {
+        // url.getHost().isEmpty() when reading an XML file
+        if (!HOSTHEADERSALLOWED.contains(url.getHost()) && !url.getHost().isEmpty()) {
             Debug.logWarning("Domain " + url.getHost() + " not accepted to prevent host header injection."
                     + " You need to set host-headers-allowed property in security.properties file.", MODULE);
             throw new IOException("Domain " + url.getHost() + " not accepted to prevent host header injection."
