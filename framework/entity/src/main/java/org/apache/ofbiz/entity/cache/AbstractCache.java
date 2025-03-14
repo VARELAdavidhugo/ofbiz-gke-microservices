@@ -22,8 +22,9 @@ import org.apache.ofbiz.base.util.cache.UtilCache;
 import org.apache.ofbiz.entity.Delegator;
 import org.apache.ofbiz.entity.DelegatorFactory;
 
-/**
- * EntityCache cache created in function of a delegator and an id
+/** Abstract Cache class. This class create an EntityCache in function of a delegator and an id
+ * @param <K> the type parameter
+ * @param <V> the type parameter
  */
 public abstract class AbstractCache<K, V> {
 
