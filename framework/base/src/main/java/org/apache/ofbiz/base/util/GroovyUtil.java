@@ -104,7 +104,8 @@ public final class GroovyUtil {
      * as a variable called "context" so that variables can be passed
      * back to the caller. Any variables that are created in the script
      * are lost when the script ends unless they are copied to the
-     * "context" <code>Map</code>.</p>
+     * "context" <code>Map</code>.
+     *
      * @param context A <code>Map</code> containing initial variables
      * @return A <code>Binding</code> instance
      */

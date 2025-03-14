@@ -101,7 +101,8 @@ public final class Observable {
     /**
      * Notify all of the observers.
      * <p>Each observer has its <code>update</code> method called with two
-     * arguments: this observable object and the <code>arg</code> argument.</p>
+     * arguments: this observable object and the <code>arg</code> argument.
+     *
      */
     public void notifyObservers(Object arg) {
         for (Observer observer : observers) {

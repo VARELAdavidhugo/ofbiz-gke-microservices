@@ -530,7 +530,8 @@ public final class EntityUtil {
     /**
      * Returns <code>true</code> if multi-tenant has been enabled.
      * <p>Multi-tenant features are enabled by setting the <code>multitenant</code>
-     * property in <code>general.properties</code> to "Y".</p>
+     * property in <code>general.properties</code> to "Y".
+     *
      */
     public static boolean isMultiTenantEnabled() {
         return "Y".equalsIgnoreCase(UtilProperties.getPropertyValue("general", "multitenant"));

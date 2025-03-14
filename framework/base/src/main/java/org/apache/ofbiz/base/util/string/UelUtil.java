@@ -474,7 +474,8 @@ public final class UelUtil {
 
     /** Prepares an expression for evaluation by UEL.<p>The OFBiz syntax is
      * converted to UEL-compatible syntax and the resulting expression is
-     * returned.</p>
+     * returned.
+     *
      * @see <a href="StringUtil.html#convertOperatorSubstitutions(java.lang.String)">StringUtil.convertOperatorSubstitutions(java.lang.String)</a>
      * @param expression Expression to be converted
      * @return Converted expression

@@ -279,7 +279,8 @@ public final class SimpleMethod extends MiniLangElement {
      * Returns a List of <code>SimpleMethod</code> objects compiled from <code>xmlResource</code>.
      * The ordering in the List is the same as the XML file.
      * <p>This method is used by unit test framework to run tests in the order they appear in the XML file.
-     * Method caching is bypassed since the methods are executed only once.</p>
+     * Method caching is bypassed since the methods are executed only once.
+     *
      * @param xmlResource
      * @param loader
      * @return
