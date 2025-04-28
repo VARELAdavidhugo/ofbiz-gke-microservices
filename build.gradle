@@ -349,8 +349,8 @@ gitHooks {
 codenarc {
     setConfigFile(new File('config/codenarc/codenarc.groovy'))
     setMaxPriority1Violations(0)
-    setMaxPriority2Violations(410)
-    setMaxPriority3Violations(3974)
+    setMaxPriority2Violations(403)
+    setMaxPriority3Violations(3920)
 }
 
 // Eclipse plugin settings
